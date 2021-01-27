@@ -134,9 +134,21 @@ docker login/logout
 
 **dockerfile**
 
-*FROM:定制的镜像都是基于 FROM 的镜像*<br>
+*FROM:定制的镜像都是基于 FROM 的镜像. 
 
-*RUN:用于执行后面跟着的命令行命令*<br>
+  
+
+  
+
+
+
+*RUN:用于执行后面跟着的命令行命令*
+
+<br>
+
+  
+
+
 
 - *RUN <命令行命令>*
 
