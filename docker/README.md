@@ -66,7 +66,7 @@
 
 <!--进入容器-->
 
-**docker attach *<container id>***
+**docker attach *&ltcontainer id&gt***
 
 **docker exec -it *<container id>* bash**
 
