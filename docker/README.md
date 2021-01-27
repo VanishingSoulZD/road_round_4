@@ -146,6 +146,12 @@ docker login/logout
 
   
 
+  
+
+
+
+  
+
 --
 
 **build image ** 
