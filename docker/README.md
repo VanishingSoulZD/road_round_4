@@ -74,7 +74,7 @@
 
 **docker port *container id***
 
---
+
 
 **docker top *container id***
 
@@ -83,4 +83,70 @@
 <!--查看 Docker 的底层信息-->
 
 **docker inspect *container id***
+
+
+
+**images list**
+
+docker images
+
+
+
+**search image**
+
+docker search httpd
+
+
+
+**remove image**
+
+docker rei *image_name*
+
+
+
+**create docker network**
+
+docker network create -d bridge test-net
+
+*-d network type*
+
+docker network ls--
+
+
+
+**connect to docker network**
+
+docker run -itd --name test1 --network test-net ubuntu bash
+
+docker run -itd --name test2 --network test-net ubuntu bash
+
+ping test2
+
+*apt-get update / apt install iputils-ping*
+
+
+
+docker login/logout
+
+
+
+**dockerfile**
+
+*FROM:定制的镜像都是基于 FROM 的镜像*
+
+*RUN:用于执行后面跟着的命令行命令*
+
+- *RUN <命令行命令>*
+
+- *RUN ["可执行文件", "参数1", "参数2"]*
+
+  *eg:RUN ["./test.php", "dev", "offline"] 等价于 RUN ./test.php dev offline*
+
+*&&连接命令*
+
+
+
+**build image**
+
+docker build -t nginx:text .
 
