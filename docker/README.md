@@ -102,6 +102,10 @@ docker search httpd
 
 docker rei *image_name*
 
+  
+
+  
+
 
 
 **create docker network**
