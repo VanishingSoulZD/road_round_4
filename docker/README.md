@@ -118,7 +118,9 @@ docker network ls--
 
 docker run -itd --name test1 --network test-net ubuntu bash
 
-docker run -itd --name test2 --network test-net ubuntu bash
+docker run -itd --name test2 --network test-net ubuntu bash. 
+
+
 
 ping test2
 
@@ -132,9 +134,9 @@ docker login/logout
 
 **dockerfile**
 
-*FROM:定制的镜像都是基于 FROM 的镜像*
+*FROM:定制的镜像都是基于 FROM 的镜像*<br>
 
-*RUN:用于执行后面跟着的命令行命令*
+*RUN:用于执行后面跟着的命令行命令*<br>
 
 - *RUN <命令行命令>*
 
@@ -142,17 +144,9 @@ docker login/logout
 
   *eg:RUN ["./test.php", "dev", "offline"] 等价于 RUN ./test.php dev offline*
 
-*&&连接命令*--  
+*&&连接命令*--    
 
-  
-
-  
-
-
-
-  
-
---
+ 
 
 **build image ** 
 
