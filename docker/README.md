@@ -4,7 +4,7 @@
 
 **docker** / **docker -- help**
 
-**docker *<command>* --help**
+**docker *command* --help**
 
 
 
@@ -18,7 +18,7 @@
 
 *-t 开启一个term*
 
-*--name <name>*
+*--name name*
 
 *-P 将容器内部使用的网络端口随机映射到我们使用的主机上或者设置 -P 5000:5000*
 
@@ -26,7 +26,7 @@
 
 **docker run -d ubuntu sh -c "while true; do echo hello world; sleep 1; done"**
 
-*<container id>*
+*container id*
 
 
 
@@ -34,23 +34,23 @@
 
 
 
-**docker logs *<container id>***
+**docker logs *container id***
 
 *-f 类似tail -f*
 
 
 
-**docker stop *<container id>***
+**docker stop *container id***
 
 
 
-**docker start *<container id>***
+**docker start *container id***
 
-**docker restart *<container id>***
+**docker restart *container id***
 
 
 
-**docker rm -f *<container id>***
+**docker rm -f *container id***
 
 
 
@@ -66,21 +66,21 @@
 
 <!--进入容器-->
 
-**docker attach *&ltcontainer id&gt***
+**docker attach *container id***
 
-**docker exec -it *<container id>* bash**
-
-
-
-**docker port *<container id>***
+**docker exec -it *container id* bash**
 
 
 
-**docker top *<container id>***
+**docker port *container id***
+
+--
+
+**docker top *container id***
 
 
 
 <!--查看 Docker 的底层信息-->
 
-**docker inspect *<container id>***
+**docker inspect *container id***
 
