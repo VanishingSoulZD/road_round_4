@@ -142,13 +142,13 @@ docker login/logout
 
   *eg:RUN ["./test.php", "dev", "offline"] 等价于 RUN ./test.php dev offline*
 
-*&&连接命令*--
+*&&连接命令*--  
 
-
+  
 
 --
 
-**build image**
+**build image ** 
 
 docker build -t nginx:text .
 
