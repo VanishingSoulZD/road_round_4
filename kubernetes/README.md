@@ -2,10 +2,6 @@
 
 [toc]
 
-**TODO 每章链接**
-
-[第二章](https://github.com/VanishingSoulZD/road_round_4/tree/jing.zhou/kubernetes/kubernetes/chapter/chapter1#kubernetes)
-
 ## 概念
 
 ### Master
@@ -96,4 +92,10 @@
 #### fluentd
 
 **fluentd是一个守护进程，可提供cluster-level logging**
+
+## 参考链接
+
+[kubernetes中文文档](http://docs.kubernetes.org.cn/)
+
+[kubernetes中文文档旧版](https://www.kubernetes.org.cn/k8s)
 

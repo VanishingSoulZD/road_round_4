@@ -1,6 +1,0 @@
-# kubernetes
-
-[toc]
-
-## chapter1
-
